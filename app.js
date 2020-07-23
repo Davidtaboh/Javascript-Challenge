@@ -1,7 +1,7 @@
 // from data.js
 var tableData = data;
 
-// YOUR CODE HERE!
+//Loop to capture data
 const tbody = $("tbody")
 function buildTable(ufos) {
   tbody.html("");
